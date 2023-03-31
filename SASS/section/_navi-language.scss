@@ -1,0 +1,55 @@
+.navi-language {
+    background-image: url(../img/Rectangle\ 20.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 30px;
+    padding-top: 33px;
+}
+
+.navi-language__title {
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 40px;
+    color: #1F2426;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 47px;
+}
+
+.navi-language__list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.navi-language__item {
+    width: 320px;
+    height: 240px;
+    background: rgba(255, 255, 255, 0.7);
+    margin-right: 35px;
+    display: inline-block;
+    padding-top: 36px;
+    text-align: center;
+}
+
+.navi-language__item:not(:nth-child(n +3)) {
+    margin-bottom: 24px;
+}
+
+.navi-language__item:nth-child(3n) {
+    margin-right: 0;
+}
+
+.navi-language__span {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 24px;
+    text-align: justify;
+    color: #000000;
+}
+
+.navi-language__img {
+    margin-bottom: 40px;
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+}

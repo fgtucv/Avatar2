@@ -1,0 +1,76 @@
+.trailer-avatar {
+    background-image: url(../img/Rectangle\ 10.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+    position: relative;
+}
+
+.trailer-avatar .container {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    height: 100%;
+}
+
+.trailer-avatar__button {
+    width: 260px;
+    height: 80px;
+    background: #0B0E66;
+    border: 3px solid #26C7EA;
+    border-radius: 45px 0px;
+    display: block;
+}
+
+.trailer-avatar__button-text {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+    text-align: justify;
+    color: #26C7EA;
+}
+
+.trailer-avatar__info {
+    justify-content: center;
+    width: 1360px;
+    height: 350px;
+}
+
+.trailer-avatar__info-text1 {
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 44px;
+    text-align: justify;
+    color: #0A3853;
+}
+
+.trailer-avatar__info-text2 {
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 44px;
+    text-align: justify;
+    color: #0A3853;
+}
+
+.trailer-modal {
+    width: 942px;
+    height: 530px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.trailer-btn {
+    position: absolute;
+    right: -30px;
+    top: -30px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.546);
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

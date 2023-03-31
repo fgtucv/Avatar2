@@ -1,0 +1,277 @@
+body {
+    font-family: 'Inter';
+    box-sizing: border-box;
+}
+
+.header-avatar {
+    width: 100%;
+    padding-top: 24px;
+    overflow: hidden;
+}
+
+.hero-avatar {
+    padding-bottom: 19px;
+    overflow: hidden;
+}
+
+.avatar-relativ {
+    width: 100%;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+
+    @media screen and (min-width: 500px) {
+        width: 500px;
+    }
+
+    @media screen and (min-width: 1200px) {
+        width: 1030px;
+    }
+}
+
+.avatar {
+    position: absolute;
+    top: 90px;
+    right: 103px;
+}
+
+.avatar-icon-list {
+    position: absolute;
+    top: 220px;
+    right: 164px;
+}
+
+.avatar-icon-list__item {
+    margin-bottom: 20px;
+}
+
+.avatar-background {
+    background-image: url(../img/Rectangle\ 1.png);
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+}
+
+.header-avatar__basic {
+    position: relative;
+}
+
+.header-avatar__language {
+    display: flex;
+    position: absolute;
+    top: 24px;
+    right: 164px;
+}
+
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 36px;
+    height: 20px;
+    margin-left: 12px;
+    margin-right: 12px;
+}
+
+.switch input {
+    display: none;
+}
+
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    -webkit-transition: .4s;
+    transition: .4s;
+    border-radius: 10px;
+    border: 1px solid white;
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    width: 12px;
+    height: 12px;
+    left: 4px;
+    bottom: 4px;
+    background-color: #36526A;
+    -webkit-transition: .4s;
+    transition: .4s;
+    border-radius: 50%;
+}
+
+input:focus+.slider {
+    box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked+.slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(17px);
+}
+
+.header-avatar__img {
+    margin-bottom: 171px;
+}
+
+.header-avatar__span {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: justify;
+
+    color: #FFFFFF;
+}
+
+.avatar-icon-list__icon {
+    fill: white;
+    width: 30px;
+    height: 30px;
+}
+
+.avatar-info {
+    width: 376px;
+    height: 263px;
+}
+
+.avatar-info__text {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+    margin-bottom: 37px;
+}
+
+.avatar-info__button {
+    width: 260px;
+    height: 80px;
+    background: #0B0E66;
+    border: 3px solid #26C7EA;
+    border-radius: 45px 0px;
+}
+
+.avatar-info__span {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+    text-align: center;
+    color: #26C7EA;
+}
+
+.avatar-backdrop {
+    background-image: url(../img/Rectangle\ 50.png);
+    background-repeat: no-repeat;
+    width: 600px;
+    height: 404px;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 111px;
+    padding-bottom: 23px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.is-hidden {
+    opacity: 0;
+    pointer-events: none;
+}
+
+.is-hidden2 {
+    opacity: 0;
+    pointer-events: none;
+}
+
+.avatar-backdrop__colse-icon {
+    height: 14px;
+    width: 14px;
+    position: absolute;
+    top: 16px;
+    right: 16px;
+    fill: #0B0E66;
+}
+
+.avatar-backdrop__label {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: justify;
+    color: #0B0E66;
+    display: block;
+
+}
+
+.avatar-backdrop__label:nth-child(2) {
+    margin-top: 12px;
+}
+
+.avatar-backdrop__input {
+    width: 440px;
+    height: 40px;
+    background: #F2EAEA;
+    border: 2px solid #0B0E66;
+    box-sizing: border-box;
+    margin-bottom: 12px;
+}
+
+.avatar-backdrop__button {
+    width: 260px;
+    height: 80px;
+    background: #0B0E66;
+    border: 3px solid #26C7EA;
+    border-radius: 45px 0px;
+    margin-top: 40px;
+    padding-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.avatar-backdrop__button-span {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+    text-align: center;
+    color: #26C7EA;
+}
+
+.backdrop-clan {
+    background-image: url(../../img/Rectangle\ 50\ \(1\).png);
+    width: 600px;
+    height: 404px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding-top: 51px;
+    padding-bottom: 172px;
+}
+
+.backdrop-clan__title {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 80px;
+}
+
+.backdrop-clan__text {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.backdrop-clan__close {
+    fill: white;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+}
